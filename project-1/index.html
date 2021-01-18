@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- META -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Pomodoro</title>
+    <!-- CSS -->
+    <link rel="stylesheet" type="text/css" href="./css/index.css">
+    <!-- Fonts -->
+    <link href=' https://fonts.googleapis.com/css?family=Red Hat Display' rel='stylesheet' type="text/css">
+    <link href=' https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type="text/css">
+</head>
+<body>
+<div class="pomodoro-container">
+    <img class="pomodoro-image">
+    <p class="pomodoro-timer"></p>
+    <div class="inline-block">
+        <button class="pomodoro-stop"></button>
+        <button class="pomodoro-start"></button>
+        <button class="pomodoro-restart"></button>
+    </div>
+    <div class="inline">
+        <div class="inline-block">
+            <div class="inline-block-cell">
+                <label for="pomodoro-minutes">Minutes</label>
+                <input class="pomodoro-minutes" id="pomodoro-minutes" type="text" value="25">
+            </div>
+            <div class="inline-block-cell">
+                <label for="pomodoro-seconds">Seconds</label>
+                <input class="pomodoro-seconds" id="pomodoro-seconds" type="text" value="00">
+            </div>
+        </div>
+        <div class="inline-block">
+            <div class="inline-block-cell">
+                <label for="pomodoro-short-break">Short break</label>
+                <input class="pomodoro-short-break" id="pomodoro-short-break" type="text" value="5">
+            </div>
+            <div class="inline-block-cell">
+                <label for="pomodoro-long-break">Long break</label>
+                <input class="pomodoro-long-break" id="pomodoro-long-break" type="text" value="15">
+            </div>
+        </div>
+    </div>
+</div>
+<script src="./js/index.js"></script>
+</body>
+</html>

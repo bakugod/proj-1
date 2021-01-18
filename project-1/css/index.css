@@ -1,0 +1,99 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #2D2D2D
+}
+
+.pomodoro-container {
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.pomodoro-image {
+    width: 40px;
+    height: 40px;
+    margin: 0 auto;
+    content: url("../img/icon-pomodoro.svg");
+}
+
+.pomodoro-timer {
+    display: flex;
+    flex-direction: row;
+    color: #FF5442;
+    font-weight: bold;
+    font-family: 'Red Hat Display';
+    font-style: normal;
+    font-size: 224px;
+    line-height: 280px;
+    letter-spacing: 9px;
+    margin: 0 auto;
+    align-self: center;
+}
+
+.pomodoro-restart {
+    background: url("../img/btn-restart.svg");
+    width: 56px;
+    height: 56px;
+}
+
+.pomodoro-stop {
+    background: url("../img/btn-stop.svg");
+    width: 56px;
+    height: 56px;
+}
+
+.pomodoro-start {
+    background: url("../img/btn-start.svg");
+    width: 130px;
+    height: 56px;
+    margin: 0 16px;
+}
+
+.inline {
+    margin-top: 16px;
+}
+
+.inline-block {
+    display: flex;
+    flex-direction: row;
+}
+
+.inline-block-cell {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: #FF5442;
+}
+
+input {
+    text-align: center;
+    padding: 7px 20px;
+    margin: 10px 20px;
+    width: 57px;
+    height: 31px;
+    left: 622px;
+    top: 606px;
+    background: #EFF0F7;
+    border-radius: 20px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #2D2D2D;
+}
+
+button {
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border-radius: 40px;
+    overflow: hidden;
+    border: none;
+}
+
+label {
+    font-family: 'Montserrat';
+}
